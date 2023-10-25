@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Recommendation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            border: 1px solid #ddd;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: orange;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .header h1 {
+            color: black; /* Change the text color to black */
+        }
+
+        .form-section {
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        form label {
+            display: block;
+            font-weight: bold;
+        }
+
+        form input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn-submit {
+            background-color: #ff3e3e;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .btn-submit:hover {
+            background-color: #e60000;
+        }
+
+        .result-section {
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 20px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .error-message {
+            color: #ff0000;
+            font-weight: bold;
+        }
+
+        h1, h2 {
+            color: orange;
+        }
+
+        .recommendation {
+            border: 1px solid #ddd;
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://images.yourstory.com/cs/images/companies/logosC141575978425306png?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff" alt="Swiggy Logo" width="60" height="60" style="float: left;">
+            <h1>Swiggy Recommendation Model</h1>
+        </div>
+        <div class="form-section">
+            <form method="POST" action="{{ url_for('web') }}">
+                <div class="form-group">
+                    <label for="cusine">Cuisine:</label>
+                    <input type="text" name="cusine" id="cusine" placeholder="Enter your preferred cuisine">
+                </div>
+                <div class="form-group">
+                    <label for="price">Preferred Price for 1:</label>
+                    <input type="text" name="price" id="price" placeholder="Enter your preferred price">
+                </div>
+                <div class="form-group">
+                    <label for="loc">Preferred Location:</label>
+                    <input type="text" name="loc" id="loc" placeholder="Enter your preferred location">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn-submit">Predict</button>
+                </div>
+            </form>
+        </div>
+        <div class="result-section">
+            {% if prediction_error %}
+                <p class="error-message">Sorry, no prediction available. Please try again with valid input.</p>
+            {% else %}
+                <div class="result-group">
+                    <h2>Based on your Preferred Location</h2>
+                    <p>Average Price for 1: {{ predict }}</p>
+                    <p>Popular Cuisine: {{ predict_1 }}</p>
+                    <p>Most Popular Restaurant: {{ predict_5 }}</p>
+                    <p>Serves: {{ predict_3 }}</p>
+                    <p>Popular Restaurant that serves your Cuisine: {{ predict_4 }}</p>
+                </div>
+                <div class="result-group">
+                    <h2>Recommendations</h2>
+                    <div class="recommendation">
+                        <p>Recommended Location: {{ predict_2 }}</p>
+                        <p>Recommended Price: {{ predict_6 }}</p>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
