@@ -1,4 +1,4 @@
-<img src="https://miro.medium.com/v2/resize:fit:1200/1*KfVvlJE86IjrStnhVlGI0w.png" width="1000" height="250" align="center">
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*Qw11nbTP2pBb08x-H2WDSA.png" width="1000" height="250" align="center">
 
 # Swiggy_Restaurant_Recommendation_Model
 
