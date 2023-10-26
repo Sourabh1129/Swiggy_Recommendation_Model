@@ -5,7 +5,7 @@ Welcome to our "Swiggy Restaurant Recommendation Model" project, where we embark
 
 ## 📑 Table of Contents
 
-- [Introduction 🌟](#introduction-)
+- [🌟 Introduction](#introduction-)
 - [🧭 Objective to Address](#objective-to-address-)
 - [📑 Project Synopsis](#project-synopsis-)
    - [🌐 Data Extraction](#data-extracrion-)
@@ -17,7 +17,7 @@ Welcome to our "Swiggy Restaurant Recommendation Model" project, where we embark
    - [🔮 Future Prospects 🌠](#future-prospects-)
 - [🔚 Conclusion](#conclusion-)
 
-## Introduction
+## 🌟 Introduction 
 
 The "Swiggy Recommendation Model" project is designed to streamline dining decisions using data science and machine learning. It offers individualized restaurant suggestions to users according to their culinary preferences and location. This comprehensive project encompasses web scraping, data refinement, machine learning model creation, and the creation of an interactive web application for an improved dining experience.
 
