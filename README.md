@@ -6,17 +6,17 @@ Welcome to our "Swiggy Restaurant Recommendation Model" project, where we embark
 
 ## 📑 Table of Contents
 
-- [🌟 Introduction](#introduction-)
-- [🧭 Objective to Address](#objective-to-address-)
-- [📑 Project Synopsis](#project-synopsis-)
-   - [🌐 Data Extraction](#data-extracrion-)
-   - [🧼 Data Preprocessing](#data-preprocessing-)
-   - [📊 Insights and Visualizations](#insights-and-visualizations-)
+- [🌟 Introduction](#introduction)
+- [🧭 Objective to Address](#objective-to-address)
+- [📑 Project Synopsis](#project-synopsis)
+   - [🌐 Data Extraction](#data-extracrion)
+   - [🧼 Data Preprocessing](#data-preprocessing)
+   - [📊 Insights and Visualizations](#insights-and-visualizations)
    - [🤖 Machine Learning Algorithm Design](#machine-learning-algorithm-design)
-   - [🖥️ Interactive Web Interface](#interactive-web-interface-)
-   - [🌟 Obstacles and Insights 🌠](#obstacles-and-insights-)
-   - [🔮 Future Prospects 🌠](#future-prospects-)
-- [🔚 Conclusion](#conclusion-)
+   - [🖥️ Interactive Web Interface](#interactive-web-interface)
+   - [🌟 Obstacles and Insights 🌠](#obstacles-and-insights)
+   - [🔮 Future Prospects 🌠](#future-prospects)
+- [🔚 Conclusion](#conclusion)
 
 ## 🌟 Introduction 
 
