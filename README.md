@@ -40,6 +40,8 @@ The project can be divided into several key components:
 ### 🌐 Data Extraction
 
 - Using Selenium for web scraping, the project gathers extensive restaurant data from Swiggy, encompassing details such as restaurant names, cuisines, locations, user reviews, and menu prices.
+![scrapping img 1](https://github.com/Sourabh1129/Swiggy_Recommendation_Model/assets/137646963/f21e1ff6-2c5e-47a1-9ba0-06aa9ef8c9ae)
+![scrapping img 2](https://github.com/Sourabh1129/Swiggy_Recommendation_Model/assets/137646963/a5934bb8-7108-40bf-8515-57421789c8f7)
 
 This code snippet illustrates the application of Selenium for web scraping, focusing on the extraction of critical restaurant data from Swiggy's website. It effectively accomplishes the following tasks:
 1. Sets up a WebDriver using Selenium to access the Swiggy website.
@@ -56,15 +58,21 @@ This code snippet illustrates the application of Selenium for web scraping, focu
 
 - Exploring and analyzing the collected data to gain insights into restaurant trends, popular cuisines, and price ranges.
 - Creating visualizations to present these insights to users.
+![Analysis 1](https://github.com/Sourabh1129/Swiggy_Recommendation_Model/assets/137646963/127e1f5d-a97c-4ee1-8b74-35ea2a1da8c3)
+![Analysis 2](https://github.com/Sourabh1129/Swiggy_Recommendation_Model/assets/137646963/6a8931a5-9a4b-4833-9a5b-e70f15580fbd)
 
 ### 🤖 Machine Learning Algorithm Design
 - Building a Linear Regressor model to predict restaurant prices based on various factors, including cuisine, location, and user reviews.
 - Converting categorical columns into numerical values using Label Encoding for model training.
+![ml 1](https://github.com/Sourabh1129/Swiggy_Recommendation_Model/assets/137646963/7de75eb3-a28e-4f24-9c0f-bb94512e0284)
 
 ### 🖥️ Interactive Web Interface
 
 - Creating a dynamic web interface with Flask, enabling users to input their preferences and receive custom restaurant suggestions.
 - Incorporating user-centric features to elevate the dining experience.
+![image](https://github.com/Sourabh1129/Swiggy_Recommendation_Model/assets/137646963/d2ee89b1-0a41-454a-ba4f-7651a1097bca)
+![image](https://github.com/Sourabh1129/Swiggy_Recommendation_Model/assets/137646963/b8f066df-68cd-4c18-ae0f-1b58bad33775)
+
 
 ### 🌟 Obstacles and Insights 🌠
 
