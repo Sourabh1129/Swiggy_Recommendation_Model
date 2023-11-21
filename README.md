@@ -1,6 +1,6 @@
 # Swiggy_Restaurant_Recommendation_Model
 
-Welcome to our "Swiggy Restaurant Recommendation Model" project, where we embark on a culinary journey to simplify your dining decisions. In this venture, we harness the potential of data science and machine learning to serve you with personalized restaurant suggestions based on your preferences and location. With a blend of web scraping, data refinement, and an interactive web application, we aim to elevate your dining experience to new heights.
+Welcome to our "Swiggy Restaurant Recommendation Model" project, where we embark on a culinary journey to simplify your dining decisions. In this venture, we harness the potential of data science and machine learning to serve you with personalized restaurant suggestions based on your preferences and location. With a blend of web scraping, data refinement, and an interactive web application, we aim to elevate your dining experience to new heights.#DataAnalysis #FoodTech #Python #WebScraping
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*Qw11nbTP2pBb08x-H2WDSA.png" width="1000" height="250" align="center">
 
@@ -17,7 +17,7 @@ Welcome to our "Swiggy Restaurant Recommendation Model" project, where we embark
    - [🌟 Obstacles and Insights 🌠](#obstacles-and-insights)
    - [🔮 Future Prospects 🌠](#future-prospects)
 - [🔚 Conclusion](#conclusion)
-- [🏷️ Tags](#tags)
+
 
 ## 🌟 Introduction 
 
@@ -92,6 +92,5 @@ This code snippet illustrates the application of Selenium for web scraping, focu
 
 In summary, the Restaurant Recommendation Model project tackles the dining decision dilemma by offering tailored suggestions. It encompasses data extraction, preprocessing, and machine learning price predictions. The user-friendly web app enhances the dining experience, and visualizations offer valuable restaurant insights. While there are limitations, the project highlights the power of data-driven dining choices.
 
-## 🏷️ Tags
-#DataAnalysis #FoodTech #Python #WebScraping
+
 
