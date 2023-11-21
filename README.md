@@ -17,6 +17,7 @@ Welcome to our "Swiggy Restaurant Recommendation Model" project, where we embark
    - [🌟 Obstacles and Insights 🌠](#obstacles-and-insights)
    - [🔮 Future Prospects 🌠](#future-prospects)
 - [🔚 Conclusion](#conclusion)
+- [🏷️ Tags](#tags)
 
 ## 🌟 Introduction 
 
@@ -90,4 +91,7 @@ This code snippet illustrates the application of Selenium for web scraping, focu
 ## 🔚 Conclusion
 
 In summary, the Restaurant Recommendation Model project tackles the dining decision dilemma by offering tailored suggestions. It encompasses data extraction, preprocessing, and machine learning price predictions. The user-friendly web app enhances the dining experience, and visualizations offer valuable restaurant insights. While there are limitations, the project highlights the power of data-driven dining choices.
+
+## 🏷️ Tags
+#DataAnalysis #FoodTech #Python #WebScraping
 
